@@ -1,0 +1,26 @@
+<addons>
+<addon id="plugin.program.ztbh-wizard19" name="[COLOR blue]ZTBH Wizard[/COLOR]" version="0.0.4" provider-name="ZTBH">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.six" />
+    <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Zadar Team Build Wizard</summary>
+    <description lang="en">U ovom wizardu će te pronaći najnovije buildove iz Zadar Team Build Hrvatska radionice.</description>
+    <platform>all</platform>
+    <assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<banner></banner>
+				<clearlogo></clearlogo>
+				<screenshot></screenshot>
+		</assets>
+  </extension>
+</addon>
+</addons>
+
